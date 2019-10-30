@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(/public/assets/images/2754175.jpg);
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 1em;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+}
+
+.submit-row {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+h5 {
+    margin-top: 6%;
+    text-align: center;
+}
+
+form {
+    padding: 2%;
+}
+
+input#name {
+	width: 25%;
+}
+
+button.addBurgerButton {
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    background-color: black;
+    color: white;
+    font-family: 'Bowlby One SC', sans-serif;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 12%;
+    border-radius: 50%;
+
+}
+
+.addBurgerButton:hover {
+    background-color: red;
+}
+
+.burgerAvailable {
+    padding: 1%;
+    margin: -5%;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 14px;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: black;
+    color: white;
+}
