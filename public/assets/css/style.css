@@ -4,7 +4,8 @@
 
 body {
 
-    background-image: url(/public/assets/images/2754175.jpg);
+    background-image: url(/assets/img/bread-bun-burger-1639562.jpg);
+    background-size: cover;
     font-family: 'Bowlby One SC', sans-serif;
     font-size: 1em;
     position: relative;
@@ -22,11 +23,13 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     margin-top: 2%;
+    color: antiquewhite;
 }
 
 h5 {
     margin-top: 6%;
     text-align: center;
+    color: aliceblue;
 }
 
 form {
@@ -54,7 +57,7 @@ button.addBurgerButton {
 }
 
 .addBurgerButton:hover {
-    background-color: red;
+    background-color: grey;
 }
 
 .burgerAvailable {
